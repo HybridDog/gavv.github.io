@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Audio on Victor Gaydov</title>
+    <link>http://gavv.github.io/tags/audio/index.xml</link>
+    <description>Recent content in Audio on Victor Gaydov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://gavv.github.io/tags/audio/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>PulseAudio under the hood</title>
+      <link>http://gavv.github.io/blog/pulseaudio-under-the-hood/</link>
+      <pubDate>Thu, 21 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>http://gavv.github.io/blog/pulseaudio-under-the-hood/</guid>
+      <description>Table of contents
+ Preface About PulseAudio High-level components Key abstractions D-Bus API C API Protocols and networking Device drivers Sound processing Sample cache Stream management Time management Power saving Automatic setup and routing Desktop integrations Compatibility layers Server internals Module list GUI tools Command line tools Configuration Portability Example setups Example clients and modules Critique  Preface I&amp;rsquo;m working on the Roc open-source project, a development kit for realtime streaming over an unreliable network.</description>
+    </item>
+    
+    <item>
+      <title>Decoding and playing audio files in Linux</title>
+      <link>http://gavv.github.io/blog/decode-play/</link>
+      <pubDate>Thu, 07 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://gavv.github.io/blog/decode-play/</guid>
+      <description>Table of contents
+ Overview FFmpeg SoX ALSA (libasound) PulseAudio Other libraries Notes  Overview I was playing with various media libraries recently and have prepared several snippets demonstrating how one can decode and play an audio file in two separate steps.
+The source code is available on GitHub here and there.
+The following libraries are used:
+ FFmpeg SoX ALSA (libasound) PulseAudio libsndfile  Each snippet is a small program.</description>
+    </item>
+    
+  </channel>
+</rss>

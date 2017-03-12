@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unix on Victor Gaydov</title>
+    <link>http://gavv.github.io/tags/unix/index.xml</link>
+    <description>Recent content in Unix on Victor Gaydov</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <atom:link href="http://gavv.github.io/tags/unix/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Using MiniSAPServer and MiniSAPListener for SAP/SDP</title>
+      <link>http://gavv.github.io/blog/minisaplistener/</link>
+      <pubDate>Fri, 09 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://gavv.github.io/blog/minisaplistener/</guid>
+      <description>MiniSAPServer is a small program that periodically sends SAP/SDP messages, given a config file and destination address.
+I&amp;rsquo;ve prepared a complementary MiniSAPListener program which listens for SAP/SDP messages, and prints them to stdout or passes to a shell command. The source code is mostly extracted from PulseAudio RTP receiver.
+To send custom SAP/SDP messages, one should create two configuration files for MiniSAPServer, one with SAP configuration, and another with an SDP message.</description>
+    </item>
+    
+    <item>
+      <title>File locking in Linux</title>
+      <link>http://gavv.github.io/blog/file-locks/</link>
+      <pubDate>Fri, 29 Jul 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://gavv.github.io/blog/file-locks/</guid>
+      <description>Table of contents
+ Introduction Advisory locking  Common features Differing features File descriptors and i-nodes BSD locks (flock) POSIX record locks (fcntl) lockf function Open file description locks (fcntl) Emulating Open file description locks Command line tools  Mandatory locking  Introduction File locking is a mutual-exclusion mechanism for files. Linux supports two major kinds of file locks:
+ advisory locks mandatory locks  Below we discuss all lock types available in POSIX and Linux and provide usage examples.</description>
+    </item>
+    
+    <item>
+      <title>Reusing UNIX domain socket (SO_REUSEADDR for AF_INET)</title>
+      <link>http://gavv.github.io/blog/unix-socket-reuse/</link>
+      <pubDate>Thu, 07 Jul 2016 00:00:01 +0000</pubDate>
+      
+      <guid>http://gavv.github.io/blog/unix-socket-reuse/</guid>
+      <description>Unix domain sockets are a networkless version of Internet sockets.
+They have several advantages:
+ Unix domain sockets are files, so file-system permissions may be used for them when one end is closed (e.g. process exits), SIGPIPE is delivered to another end performance may be up to 2x better  See details here.
+Lack of SO_REUSEADDR A socket file is created by bind(2) call. If the file already exists, EADDRINUSE is returned.</description>
+    </item>
+    
+  </channel>
+</rss>
